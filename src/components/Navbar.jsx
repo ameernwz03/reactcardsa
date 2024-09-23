@@ -7,7 +7,7 @@ function Navbar(props) {
   return (
    <>
    <div className="nav">
-    <img src={props.photo} alt='' className='rounded-pill ' />
+    <img src={props.photo} className='rounded-pill ' />
      <h1 className='fw-bold'>{props.title}</h1>
      <ul className='m-0'>
        <li><a href="#home">Home</a></li>
